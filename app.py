@@ -76,11 +76,12 @@ def main():
         # img = Image.open("./img/dna.jpg")
         # img.thumbnail((300,800))
         # st.image(img)
-        st.subheader("Features")
-        st.markdown("**1. DNA Sequence Statitstics**")
-        st.markdown("**2. DNA Sequence Operations**")
-        st.markdown("**3. Protein Sequence Analysis**")
-        st.markdown("**4. Data Visualization**")
+        st.write("""
+            * DNA Sequence Statitstics
+            * DNA Sequence Operations
+            * Protein Sequence Analysis
+            *  Data Visualization
+        """)
 
     # DNA Sequence Analysis
     elif choices == 'DNA Sequence':
